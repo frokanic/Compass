@@ -72,7 +72,16 @@ The purpose of that is to simply expose the above discussed functionality of ``S
 #### SensorMapper
 Its purpose is to help with the functionality of the ``SensorRepositoryImpl``, while respecting the separation of concerns principale. It maps the data layer model discussed above, to the domain's, sensor specific model. Here, we create implementations of the SensorMapper interface, specific to the domain model we want to map to (and thus, specific to the desired sensor).
 
+### Why this matters?
+Given the above structure, one can copy and paste the whole data layer. Then, just by:
+    1. Creating an instance of SensorController (ideally through dependency injection, for more clear code), providing his/her desired sensor type.
+    2. Creating a domain model (or in general a data class), specific to the sensor.
+    3. Creating a SensorMapper implementation specific to the above domain model
+he/she can start and stop listening to the sensor, as well as collect its latest data, just by calling the 2 repository's below functions, and observing the repository's below observable.
 
+``startListening()``
+``stopListening()``
+``sensorDataFlow``
 
 ## 📷 Screenshots
 
