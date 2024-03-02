@@ -14,5 +14,8 @@ Compass is an app that serves 2 purposes. First off, it is a compass app 😂. S
 - 🏛️ Android Clean Architecture
 - ⏱️ Coroutines for asynchronous programming
 
+## 📷 Screenshots
+
+
 ## 📧 Contact
 For any questions or inquiries, feel free to reach out to [f.rokanis@gmail.com](mailto:f.rokanis@gmail.com).
