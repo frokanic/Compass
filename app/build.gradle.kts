@@ -74,22 +74,11 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    implementation(libs.androidx.core.splashscreen)
-
     // Compose Navigation
     implementation(libs.androidx.navigation.compose)
 
-    // Room
-    implementation(libs.androidx.room.runtime)
-    ksp(libs.androidx.room.compiler)
-    implementation(libs.androidx.room.ktx)
-
-    // Retrofit
-    implementation(libs.retrofit)
-    implementation(libs.converter.gson)
-
-    // Coil
-    implementation(libs.coil.compose)
+    // Splash Screen
+    implementation(libs.androidx.core.splashscreen)
 
     // Dagger-Hilt
     implementation(libs.hilt.android)
@@ -99,12 +88,4 @@ dependencies {
     // Kotlin Coroutines
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.coroutines.core)
-
-    // Extended Icons
-    implementation(libs.androidx.material.icons.extended)
-
-    // Gson
-    implementation(libs.gson)
-
-    implementation(libs.pullrefresh)
 }

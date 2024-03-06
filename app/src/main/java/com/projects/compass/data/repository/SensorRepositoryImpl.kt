@@ -15,7 +15,7 @@ class SensorRepositoryImpl<T>(
         sensorMapper.map(sensorData.values, sensorData.accuracy)
     }
 
-        override fun startListening() {
+    override fun startListening() {
         sensorController.startListening()
     }
 

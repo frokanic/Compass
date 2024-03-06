@@ -1,4 +1,4 @@
-package com.projects.compass.presentation.compass
+package com.projects.compass.presentation.screen.compass
 
 import androidx.lifecycle.ViewModel
 import com.projects.compass.domain.usecase.MagnetometerUseCase
