@@ -77,6 +77,8 @@ dependencies {
     // Compose Navigation
     implementation(libs.androidx.navigation.compose)
 
+    implementation(libs.androidx.material3.window.size)
+
     // Splash Screen
     implementation(libs.androidx.core.splashscreen)
 
