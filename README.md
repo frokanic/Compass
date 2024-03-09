@@ -2,6 +2,11 @@
 
 Compass is an app that serves 2 purposes. First off, it is a compass app 😂. Secondly though, the data layer is written in an abstract way such that, the code can be copy pasted and used for all other sensors. In the future, this might be turned into a library. 
 
+## 🚧 UI Under Construction
+
+The user interface for this app is currently under construction. Stay tuned for updates as we work to bring you an intuitive and visually appealing experience.
+
+
 ## ✨ Features
 
 - 🧲 Accesses the device's magnetometer sensor
