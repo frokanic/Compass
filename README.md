@@ -4,7 +4,7 @@ Compass is an app that serves 2 purposes. First off, it is a compass app 😂. S
 
 ## 🚧 UI Under Construction
 
-The user interface for this app is currently under construction. Stay tuned for updates as we work to bring you an intuitive and visually appealing experience.
+The user interface for this app is currently under construction. 
 
 
 ## ✨ Features
